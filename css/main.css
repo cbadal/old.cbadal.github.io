@@ -34,3 +34,19 @@ $on-laptop:        800px;
 
 
 */
+body {
+  position: relative; }
+
+.menu_item {
+  position: absolute;
+  background-repeat: no-repeat; }
+
+#instagram_menu_item {
+  background-image: url("/images/instagram_menu_item.png"); }
+
+#tumblr_menu_item {
+  background-image: url("/images/tumblr_menu_item.png"); }
+
+#content {
+  width: 100%;
+  height: 100%; }
