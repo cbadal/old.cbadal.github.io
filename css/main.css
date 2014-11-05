@@ -49,49 +49,8 @@ body {
   overflow: hidden;
   box-sizing: border-box; }
 
-.mobile .body {
+body.mobile {
   font-size: 9em; }
-
-#back_home {
-  width: 6em;
-  font-size: 4em;
-  left: 50%;
-  margin-left: -3em;
-  text-align: center;
-  top: 1em;
-  cursor: pointer;
-  position: absolute;
-  z-index: 4; }
-
-.menu_item {
-  cursor: pointer;
-  background-repeat: no-repeat;
-  position: fixed;
-  z-index: 99; }
-
-.menu_item:hover img {
-  filter: alpha(opacity=0);
-  opacity: 0; }
-
-#instagram_menu_item {
-  background-image: url("/images/instagram_menu_item_hover.png");
-  top: -20em;
-  left: -5em; }
-
-#tumblr_menu_item {
-  background-image: url("/images/tumblr_menu_item_hover.png");
-  top: 60%;
-  left: -17.5%; }
-
-#linkedin_menu_item {
-  top: -12em;
-  left: 95em;
-  background-image: url("/images/linkedin_menu_item_hover.png"); }
-
-#contact_menu_item {
-  background-image: url("/images/contact_menu_item_hover.png");
-  top: 45em;
-  left: 50em; }
 
 #content {
   width: 100%;
@@ -114,49 +73,169 @@ body {
   #content a:active {
     background: #000000;
     color: #ffffff; }
-  #content #home_content {
-    width: 47%;
-    font-size: 2em;
-    line-height: 1.5em;
-    margin-left: 27%;
-    display: inline-block;
-    margin-top: 12em;
-    height: 30%;
-    min-width: 20em; }
-  #content #contact_content {
-    font-size: 2.6em;
-    line-height: 1.3em;
-    position: absolute;
-    width: 47%;
-    top: 13em;
-    left: 27%; }
-  #content #linkedin_content {
-    width: 40em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10.5%;
-    margin-bottom: 20%; }
-    #content #linkedin_content p {
-      font-size: 2.1em; }
-    #content #linkedin_content div {
-      color: #999; }
-  #content #instagram_content {
-    width: 40em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 8em; }
-    #content #instagram_content img {
-      padding: 2.8em 0 2.8em 0;
-      opacity: 0.8;
-      filter: alpha(opacity=80);
-      z-index: 99;
-      float: left;
-      clear: both;
-      width: 40em; }
-    #content #instagram_content img:hover {
-      opacity: 1;
-      filter: alpha(opacity=100); }
-  #content .mobile #instagram_content img {
-    padding: 32em 0 2em 0;
-    width: 360em; }
+
+#home_content {
+  width: 47%;
+  font-size: 2em;
+  line-height: 1.5em;
+  margin-left: 27%;
+  display: inline-block;
+  margin-top: 12em;
+  height: 30%;
+  min-width: 20em; }
+
+.mobile #home_content {
+  width: 85%;
+  font-size: 18em;
+  margin-left: 7.5%;
+  margin-top: 2em;
+  min-width: 5em; }
+
+.menu_item {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 99; }
+
+.mobile .menu_item {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 99; }
+
+.menu_item:hover img {
+  filter: alpha(opacity=0);
+  opacity: 0; }
+
+#instagram_menu_item {
+  background-image: url("/images/instagram_menu_item_hover.png");
+  top: -20em;
+  left: -5em; }
+
+.mobile #instagram_menu_item {
+  background-image: url("{{#asset}}InstagramButtonHover.png{{/asset}}");
+  top: 35%;
+  left: -25%; }
+
+#tumblr_menu_item {
+  background-image: url("/images/tumblr_menu_item_hover.png");
+  top: 60%;
+  left: -17.5%; }
+
+.mobile #tumblr_menu_item {
+  display: none;
+  background-image: url("{{#asset}}TumblrButtonHover.png{{/asset}}");
+  top: 60%;
+  left: -17.5%;
+  display: none; }
+
+#linkedin_menu_item {
+  top: -12em;
+  left: 95em;
+  background-image: url("/images/linkedin_menu_item_hover.png"); }
+
+.mobile #linkedin_menu_item {
+  background-image: url("{{#asset}}Testin.png{{/asset}}");
+  top: 27.5%;
+  left: 50%; }
+
+#contact_menu_item {
+  background-image: url("/images/contact_menu_item_hover.png");
+  top: 45em;
+  left: 50em; }
+
+.mobile #contact_menu_item {
+  background-image: url("{{#asset}}Contact-Tag-Hover2.png{{/asset}}");
+  top: 80%;
+  left: 30%; }
+
+#back_home {
+  width: 2em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  font-size: 4em;
+  left: 50%;
+  margin-left: -1.5em;
+  text-align: center;
+  top: 1em;
+  cursor: pointer;
+  position: absolute;
+  z-index: 4; }
+
+#back_home:hover {
+  background: #000000;
+  color: #000000; }
+
+#back_home:active {
+  color: #000; }
+
+.mobile #back_home {
+  font-size: 13.2em; }
+
+#contact_content {
+  font-size: 2.6em;
+  line-height: 1.3em;
+  position: absolute;
+  width: 47%;
+  top: 13em;
+  left: 27%; }
+
+#linkedin_content {
+  width: 40em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10.5%;
+  margin-bottom: 20%; }
+  #linkedin_content img {
+    margin-right: 0.2em; }
+  #linkedin_content p {
+    font-size: 2.1em; }
+  #linkedin_content div {
+    color: #999; }
+
+.mobile #linkedin_content {
+  width: 85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-bottom: 15%;
+  line-height: 1.2em;
+  background-color: red; }
+  .mobile #linkedin_content .bold, .mobile #linkedin_content p, .mobile #linkedin_content a, .mobile #linkedin_content div {
+    font-size: 34em !important; }
+
+#instagram_content {
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8em; }
+  #instagram_content img {
+    padding: 2.8em 0 2.8em 0;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    z-index: 99;
+    float: left;
+    clear: both;
+    width: 40em; }
+  #instagram_content img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); }
+
+#tumblr_content {
+  width: 40em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5%;
+  margin-bottom: 5%; }
+  #tumblr_content img {
+    width: 100%; }
+  #tumblr_content .tumblr_post {
+    width: 100%; }
+  #tumblr_content .caption {
+    width: 100%; }
+  #tumblr_content .text_post {
+    width: 20em;
+    height: 20em; }
+  #tumblr_content ol.tumblr_posts {
+    list-style: none; }

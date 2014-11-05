@@ -53,21 +53,6 @@
     contact_menu_item: function() {
       return $('#content').load('ajax/contact.html');
     },
-    showImages: function() {
-      var image, img, result, _i, _len, _ref, _results;
-      console.log(this);
-      _ref = this.options.custom.images;
-      _results = [];
-      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-        image = _ref[_i];
-        console.log(image);
-        result = $(document.createElement('a')).attr('href', image.link);
-        img = $(document.createElement('img')).attr('src', image.images[this.options.resolution].url);
-        result.append(img);
-        _results.push($('#instagram_content').append(result));
-      }
-      return _results;
-    },
     instagram_menu_item: function() {
       var div;
       this.state = 'instagram';
@@ -97,11 +82,75 @@
       });
       return this.feed.run();
     },
+    showImages: function() {
+      var image, img, result, _i, _len, _ref, _results;
+      _ref = this.options.custom.images;
+      _results = [];
+      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+        image = _ref[_i];
+        console.log(image);
+        result = $(document.createElement('a')).attr('href', image.link);
+        img = $(document.createElement('img')).attr('src', image.images[this.options.resolution].url);
+        result.append(img);
+        _results.push($('#instagram_content').append(result));
+      }
+      return _results;
+    },
     load_more_instagram: function() {
       if (this.feed.options.custom.currentUrl !== this.feed.nextUrl) {
         this.feed.options.custom.currentUrl = this.feed.nextUrl;
         return this.feed.next();
       }
+    },
+    tumblr_menu_item: function() {
+      var key, offset, str, that;
+      that = this;
+      offset = 0;
+      key = 'wOH7OKUh4IXyFeqf5MESmUagAoD4gMxFPvVgyYeqtSsCLkmn3V';
+      str = 'http://api.tumblr.com/v2/blog/voyeurvoyage.tumblr.com/posts?api_key=' + key + '&offset=' + offset;
+      return $.ajax({
+        type: 'GET',
+        dataType: 'jsonp',
+        url: str,
+        success: function(result) {
+          return that.show_tumblr_posts(result.response.posts);
+        }
+      });
+    },
+    show_tumblr_posts: function(posts) {
+      var body, caption, div, img, photo, post, tumblr_post, _i, _len, _results;
+      $('#content').html($(document.createElement('div')).attr('id', 'tumblr_content'));
+      _results = [];
+      for (_i = 0, _len = posts.length; _i < _len; _i++) {
+        post = posts[_i];
+        if (post.type === 'photo') {
+          _results.push((function() {
+            var _j, _len1, _ref, _results1;
+            _ref = post.photos;
+            _results1 = [];
+            for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
+              photo = _ref[_j];
+              img = document.createElement('img');
+              $(img).attr('src', photo.original_size.url);
+              caption = post.caption;
+              div = document.createElement('div');
+              $(div).html(caption).addClass('caption');
+              tumblr_post = document.createElement('div');
+              $(tumblr_post).addClass('tumblr_post').append(img, div);
+              _results1.push($('#tumblr_content').append(tumblr_post));
+            }
+            return _results1;
+          })());
+        } else if (post.type === 'text') {
+          body = post.body;
+          div = document.createElement('div');
+          $(div).addClass('text_post');
+          _results.push($('#tumblr_content').append(div));
+        } else {
+          _results.push(void 0);
+        }
+      }
+      return _results;
     }
   };
 
