@@ -108,12 +108,12 @@ body.mobile {
   opacity: 0; }
 
 #instagram_menu_item {
-  background-image: url("/images/instagram_menu_item_hover.png");
+  background-image: url("/images/mimi_menu_item_hover.png");
   top: -20em;
   left: -5em; }
 
 .mobile #instagram_menu_item {
-  background-image: url("{{#asset}}InstagramButtonHover.png{{/asset}}");
+  background-image: url("{{#asset}}MimiButtonHover.png{{/asset}}");
   top: 35%;
   left: -25%; }
 
@@ -132,7 +132,7 @@ body.mobile {
 #linkedin_menu_item {
   top: -12em;
   left: 95em;
-  background-image: url("/images/linkedin_menu_item_hover.png"); }
+  background-image: url("/images/chuchu_menu_item_hover.png"); }
 
 .mobile #linkedin_menu_item {
   background-image: url("{{#asset}}Testin.png{{/asset}}");
