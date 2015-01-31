@@ -103,12 +103,6 @@ body.mobile {
   position: fixed;
   z-index: 99; }
 
-/*
-.menu_item:hover img {
-    filter: alpha(opacity=0);
-    opacity: 0;
-}
-*/
 #instagram_menu_item {
   background-image: url("/images/mimi_menu_item.jpg");
   background-size: 100% 100%;
@@ -127,9 +121,15 @@ body.mobile {
   left: -25%; }
 
 #tumblr_menu_item {
-  background-image: url("/images/tumblr_menu_item_hover.jpg");
-  top: 60%;
-  left: -17.5%; }
+  background-image: url("/images/tumblr_menu_item.jpg");
+  bottom: 50px;
+  background-size: 100% 100%;
+  left: 0px;
+  height: 270px;
+  width: 405px; }
+
+#tumblr_menu_item:hover {
+  background-image: url("/images/tumblr_menu_item_hover.jpg"); }
 
 .mobile #tumblr_menu_item {
   display: none;
@@ -141,6 +141,9 @@ body.mobile {
 #linkedin_menu_item {
   top: -12em;
   right: -17em;
+  background-image: url("/images/chuchu_menu_item.jpg"); }
+
+#linkedin_menu_item:hover {
   background-image: url("/images/chuchu_menu_item_hover.jpg"); }
 
 .mobile #linkedin_menu_item {
@@ -149,9 +152,12 @@ body.mobile {
   left: 50%; }
 
 #contact_menu_item {
-  background-image: url("/images/contact_menu_item_hover.jpg");
+  background-image: url("/images/contact_menu_item.jpg");
   top: 45em;
   left: 50em; }
+
+#contact_menu_item:hover {
+  background-image: url("/images/contact_menu_item_hover.jpg"); }
 
 .mobile #contact_menu_item {
   background-image: url("{{#asset}}Contact-Tag-Hover2.jpg{{/asset}}");
