@@ -82,7 +82,7 @@ body.mobile {
   display: inline-block;
   margin-top: 13em;
   height: 30%;
-  min-width: 20em; }
+  min-width: 32em; }
 
 .mobile #home_content {
   width: 85%;
@@ -95,7 +95,8 @@ body.mobile {
   cursor: pointer;
   background-repeat: no-repeat;
   position: fixed;
-  z-index: 99; }
+  z-index: 99;
+  background-size: 100% 100%; }
 
 .mobile .menu_item {
   cursor: pointer;
@@ -105,7 +106,6 @@ body.mobile {
 
 #instagram_menu_item {
   background-image: url("/images/mimi_menu_item.jpg");
-  background-size: 100% 100%;
   top: 0;
   left: 50px;
   display: block;
@@ -123,7 +123,6 @@ body.mobile {
 #tumblr_menu_item {
   background-image: url("/images/tumblr_menu_item.jpg");
   bottom: 50px;
-  background-size: 100% 100%;
   left: 0px;
   height: 270px;
   width: 405px; }
@@ -139,12 +138,14 @@ body.mobile {
   display: none; }
 
 #linkedin_menu_item {
-  top: -12em;
-  right: -17em;
-  background-image: url("/images/chuchu_menu_item.jpg"); }
+  top: 0em;
+  right: 0em;
+  background-image: url("/images/chuchu_menu_item.png");
+  height: 260px;
+  width: 480.1px; }
 
 #linkedin_menu_item:hover {
-  background-image: url("/images/chuchu_menu_item_hover.jpg"); }
+  background-image: url("/images/chuchu_menu_item_hover.png"); }
 
 .mobile #linkedin_menu_item {
   background-image: url("{{#asset}}Testin.png{{/asset}}");
@@ -152,12 +153,14 @@ body.mobile {
   left: 50%; }
 
 #contact_menu_item {
-  background-image: url("/images/contact_menu_item.jpg");
-  top: 45em;
-  left: 50em; }
+  background-image: url("/images/contact_menu_item.png");
+  bottom: 0em;
+  right: 35%;
+  height: 290px;
+  width: 315px; }
 
 #contact_menu_item:hover {
-  background-image: url("/images/contact_menu_item_hover.jpg"); }
+  background-image: url("/images/contact_menu_item_hover.png"); }
 
 .mobile #contact_menu_item {
   background-image: url("{{#asset}}Contact-Tag-Hover2.jpg{{/asset}}");
@@ -241,7 +244,7 @@ body.mobile {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2.5%;
+  margin-top: 6.5%;
   margin-bottom: 5%; }
   #tumblr_content img {
     width: 100%; }
