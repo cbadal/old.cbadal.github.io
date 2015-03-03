@@ -1,10 +1,10 @@
 /*
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: Serif;
+$base-font-size:   13px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     18px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -43,7 +43,7 @@ body, html {
 body {
   background: #fff;
   color: #000000;
-  font-family: 'arial', sans-serif;
+  font-family: serif;
   font-size: 1em;
   line-height: 1.7em;
   overflow: hidden;
@@ -106,6 +106,8 @@ body.mobile {
 
 #instagram_menu_item {
   background-image: url("/images/mimi_menu_item2.jpg");
+  opacity: 0;
+  transition: opacity 1s;
   top: 0;
   left: 50px;
   display: block;
@@ -113,7 +115,8 @@ body.mobile {
   width: 384px; }
 
 #instagram_menu_item:hover {
-  background-image: url("/images/mimi_menu_item_hover.jpg"); }
+  background-image: url("/images/mimi_menu_item_hover.jpg"); 
+  opacity: 1; }
 
 .mobile #instagram_menu_item {
   background-image: url("{{#asset}}MimiButtonHover.jpg{{/asset}}");
