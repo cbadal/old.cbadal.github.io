@@ -109,18 +109,24 @@ body.mobile {
   position: fixed;
   z-index: 99; }
 
-#instagram_menu_item {
+#instagram_menu_accent {
   background-image: url("/images/instagram_accent.png");
+  top: 0;
+  left: 50px;
+  display: block;
+  height: 87px;
+  width: 141px; }
+
+#instagram_menu_item {
   opacity: 0;
   transition: opacity 1s;
   top: 0;
   left: 50px;
   display: block;
-  height: 240px;
-  width: 384px; }
+  height: 87px;
+  width: 141px; }
 
 #instagram_menu_item:hover {
-  background-image: url("/images/instagram_accent.png"); 
   opacity: 1; }
 
 .mobile #instagram_menu_item {
