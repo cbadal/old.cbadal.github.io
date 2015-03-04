@@ -94,8 +94,8 @@ body.mobile {
 #instagram_content {
   opacity: 0;
   transition: opacity 1s;
-  top: 0;
-  left: 50px;
+  margin-top: 10em;
+  margin-left: 10%;
   display: block;
   height: 87px;
   width: 141px; }
@@ -124,8 +124,8 @@ body.mobile {
 
 #instagram_menu_item {
   background-image: url("/images/instagram_accent.png");
-  top: 0;
-  left: 50px;
+  margin-top: 10em;
+  margin-left: 10%;
   display: block;
   height: 87px;
   width: 141px; }
