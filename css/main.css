@@ -195,8 +195,8 @@ body.mobile {
   z-index: 4; }
 
 #back_home:hover {
-  background: #000000;
-  color: #000000; }
+  color: #000000; 
+  text-decoration: underline; }
 
 #back_home:active {
   color: #000; }
