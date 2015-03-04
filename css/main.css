@@ -92,7 +92,9 @@ body.mobile {
   min-width: 5em; }
 
 .menu_accent {
-
+  background-repeat: no-repeat;
+  position: fixed;
+  background-size: 100% 100%;
 }
 
 #instagram_menu_accent {
