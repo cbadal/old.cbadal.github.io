@@ -94,8 +94,8 @@ body.mobile {
 #instagram_content {
   opacity: 0;
   transition: opacity 1s;
-  margin-top: 15em;
-  margin-left: 80%;
+  margin-top: 40em;
+  margin-left: 60%;
   display: block; }
 
 #instagram_content:hover {
@@ -130,8 +130,8 @@ body.mobile {
 
 #instagram_menu_item {
   background-image: url("/images/instagram_accent.png");
-  margin-top: 15em;
-  margin-left: 80%;
+  margin-top: 40em;
+  margin-left: 60%;
   display: block;
   height: 87px;
   width: 141px; }
@@ -143,8 +143,8 @@ body.mobile {
 
 #tumblr_menu_item {
   background-image: url("/images/tumblr_accent.png");
-  margin-top: 45em;
-  margin-left: 60%;
+  margin-top: 50em;
+  margin-left: 50%;
   height: 43px;
   width: 121px; }
 
@@ -169,8 +169,8 @@ body.mobile {
 
 #contact_menu_item {
   background-image: url("/images/contact_accent.png");
-  margin-top: 50em;
-  margin-left: 30%;
+  margin-top: 60em;
+  margin-left: 20%;
   height: 75px;
   width: 138px; }
 
