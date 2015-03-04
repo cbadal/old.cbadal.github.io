@@ -94,9 +94,11 @@ body.mobile {
 #instagram_content {
   opacity: 0;
   transition: opacity 1s;
+  font-size: 1em;
+  line-height: 1.3em;
   margin-top: 40em;
   margin-left: 60%;
-  display: block; }
+  display: inline-block; }
 
 #instagram_content:hover {
   cursor: pointer;
