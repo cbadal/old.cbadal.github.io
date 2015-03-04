@@ -194,10 +194,10 @@ body.mobile {
 #contact_content {
   font-size: 1em;
   line-height: 1.3em;
-  position: absolute;
-  width: 47%;
-  top: 13em;
-  left: 27%; }
+  margin-left: 30.5%;
+  display: inline-block;
+  margin-top: 19em;
+  width: 180px; }
 
 #linkedin_content {
   width: 40em;
