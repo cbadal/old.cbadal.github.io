@@ -44,8 +44,8 @@ body {
   background: #fff;
   color: #000000;
   font-family: serif;
-  font-size: 1em;
-  line-height: 1.7em;
+  font-size: .7em;
+  line-height: 1em;
   overflow: hidden;
   box-sizing: border-box; }
 
@@ -74,11 +74,11 @@ body.mobile {
 #home_content {
   opacity: 0;
   transition: opacity 1s;
-  font-size: 1em;
-  line-height: 1.7em;
+  font-size: .7em;
+  line-height: 1em;
   margin-left: 27%;
   display: inline-block;
-  margin-top: 13em;
+  margin-top: 15em;
   height: 315px;
   width: 320px; }
 
