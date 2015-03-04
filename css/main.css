@@ -123,7 +123,7 @@ body.mobile {
 #work_menu_item {
   background-image: url("/images/work_accent.png");
   margin-left: 5%;
-  margin-top: 9em;
+  margin-top: 14em;
   height: 56px;
   width: 161px; 
 }
@@ -169,8 +169,8 @@ body.mobile {
 
 #contact_menu_item {
   background-image: url("/images/contact_accent.png");
-  margin-top: 30em;
-  margin-left: 35%;
+  margin-top: 40em;
+  margin-left: 30%;
   height: 75px;
   width: 138px; }
 
