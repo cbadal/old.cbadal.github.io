@@ -75,6 +75,8 @@ body.mobile {
     color: #ffffff; }
 
 #home_content {
+  opacity: 0;
+  transition: opacity 1s;
   width: 47%;
   font-size: 2em;
   line-height: 1.5em;
@@ -83,6 +85,9 @@ body.mobile {
   margin-top: 13em;
   height: 30%;
   min-width: 32em; }
+
+#home_content:hover {
+  opacity: 1; }
 
 .mobile #home_content {
   width: 85%;
@@ -124,14 +129,17 @@ body.mobile {
   left: -25%; }
 
 #tumblr_menu_item {
-  background-image: url("/images/tumblr_menu_item.jpg");
+  background-image: url("/images/tumblr_accent.png");
+  opacity: 0;
+  transition: opacity 1s;
   bottom: 50px;
   left: 0px;
   height: 270px;
   width: 405px; }
 
 #tumblr_menu_item:hover {
-  background-image: url("/images/tumblr_menu_item_hover.jpg"); }
+  background-image: url("/images/tumblr_accent.png");
+  opacity: 1; }
 
 .mobile #tumblr_menu_item {
   display: none;
@@ -141,14 +149,17 @@ body.mobile {
   display: none; }
 
 #linkedin_menu_item {
+  background-image: url("/images/chuchu_menu_item.png");
+  opacity: 0;
+  transition: opacity 1s;
   top: 0em;
   right: 0em;
-  background-image: url("/images/chuchu_menu_item.png");
   height: 260px;
   width: 480.1px; }
 
 #linkedin_menu_item:hover {
-  background-image: url("/images/chuchu_menu_item_hover.png"); }
+  background-image: url("/images/chuchu_menu_item_hover.png"); 
+  opacity: 1; }
 
 .mobile #linkedin_menu_item {
   background-image: url("{{#asset}}Testin.png{{/asset}}");
@@ -157,13 +168,16 @@ body.mobile {
 
 #contact_menu_item {
   background-image: url("/images/contact_menu_item.png");
+  opacity: 0;
+  transition: opacity 1s;
   bottom: 0em;
   right: 35%;
   height: 290px;
   width: 315px; }
 
 #contact_menu_item:hover {
-  background-image: url("/images/contact_menu_item_hover.png"); }
+  background-image: url("/images/contact_menu_item_hover.png");
+  opacity: 1; }
 
 .mobile #contact_menu_item {
   background-image: url("{{#asset}}Contact-Tag-Hover2.jpg{{/asset}}");
