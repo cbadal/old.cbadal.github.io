@@ -158,7 +158,7 @@ body.mobile {
 #linkedin_menu_item {
   background-image: url("/images/about_accent.png");
   margin-top: 5em;
-  margin-right: 15%;
+  margin-left: 15%;
   height: 56px;
   width: 119px; }
 
@@ -169,8 +169,8 @@ body.mobile {
 
 #contact_menu_item {
   background-image: url("/images/contact_accent.png");
-  margin-bottom: 5em;
-  margin-right: 35%;
+  margin-top: 30em;
+  margin-left: 35%;
   height: 75px;
   width: 138px; }
 
