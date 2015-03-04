@@ -50,10 +50,10 @@
       this.state = 'linkedin';
       return $('#content').load('ajax/linkedin.html');
     },
-    contact_home_content: function() {
+    contact_menu_accent: function() {
       return $('#content').load('ajax/contact.html');
     },
-    instagram_home_content: function() {
+    instagram_menu_accent: function() {
       var div;
       this.state = 'instagram';
       div = $(document.createElement('div')).attr('id', 'instagram_content');

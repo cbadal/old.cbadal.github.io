@@ -71,19 +71,6 @@ body.mobile {
     background: #000000;
     color: #ffffff; }
 
-#instagram_home_content {
-  opacity: 0;
-  transition: opacity 1s;
-  font-size: 1em;
-  line-height: 1.3em;
-  display: inline-block;
-  width: 141px;
-  margin-top: 40em;
-  margin-left: 60%; }
-
-#instagram_home_content:hover {
-  opacity: 1; }
-
 #home_content {
   opacity: 0;
   transition: opacity 1s;
@@ -97,7 +84,31 @@ body.mobile {
 #home_content:hover {
   opacity: 1; }
 
-#contact_home_content {
+.mobile #home_content {
+  width: 85%;
+  font-size: 18em;
+  margin-left: 7.5%;
+  margin-top: 2em;
+  min-width: 5em; }
+
+.menu_accent {
+
+}
+
+#instagram_menu_accent {
+  opacity: 0;
+  transition: opacity 1s;
+  font-size: 1em;
+  line-height: 1.3em;
+  display: inline-block;
+  width: 141px;
+  margin-top: 40em;
+  margin-left: 60%; }
+
+#instagram_menu_accent:hover {
+  opacity: 1; }
+
+#contact_menu_accent {
   opacity: 0;
   transition: opacity 1s;
   font-size: 1em;
@@ -105,15 +116,8 @@ body.mobile {
   margin-top: 60em;
   margin-left: 20%; }
 
-#contact_home_content:hover {
+#contact_menu_accent:hover {
   opacity: 1; }
-
-.mobile #home_content {
-  width: 85%;
-  font-size: 18em;
-  margin-left: 7.5%;
-  margin-top: 2em;
-  min-width: 5em; }
 
 .menu_item {
   background-repeat: no-repeat;
