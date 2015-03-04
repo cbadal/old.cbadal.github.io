@@ -76,10 +76,10 @@ body.mobile {
   transition: opacity 1s;
   font-size: 1em;
   line-height: 1.1em;
-  margin-left: 29.5%;
+  margin-left: 31%;
   display: inline-block;
   margin-top: 20em;
-  width: 200px; }
+  width: 180px; }
 
 #home_content:hover {
   opacity: 1; }
