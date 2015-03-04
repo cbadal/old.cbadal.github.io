@@ -92,7 +92,7 @@ body.mobile {
   min-width: 5em; }
 
 .menu_accent {
-  z-index: 99;
+  position: fixed;
 }
 
 #instagram_menu_accent {
