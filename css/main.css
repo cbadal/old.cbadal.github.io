@@ -96,9 +96,7 @@ body.mobile {
   transition: opacity 1s;
   margin-top: 10em;
   margin-left: 10%;
-  display: block;
-  height: 87px;
-  width: 141px; }
+  display: block; }
 
 #instagram_content:hover {
   cursor: pointer;
@@ -120,6 +118,14 @@ body.mobile {
   margin-top: 13em;
   height: 315px;
   width: 320px; 
+}
+
+#work_menu_item {
+  background-image: url("/images/work_accent.png");
+  margin-left: 10%;
+  margin-top: 8em;
+  height: 56px;
+  width: 161px; 
 }
 
 #instagram_menu_item {
