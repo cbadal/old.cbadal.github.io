@@ -53,6 +53,7 @@ body.mobile {
   font-size: 9em; }
 
 #content {
+  cursor: pointer;
   width: 100%;
   height: 100%;
   overflow-y: auto; }
@@ -75,7 +76,6 @@ body.mobile {
     color: #ffffff; }
 
 #home_content {
-  background-image: url("/images/bio_accent.png");
   opacity: 0;
   transition: opacity 1s;
   width: 47%;
@@ -88,7 +88,6 @@ body.mobile {
   width: 320px; }
 
 #home_content:hover {
-  background-image: url("/images/bio_accent.png");
   opacity: 1; }
 
 .mobile #home_content {
@@ -98,21 +97,7 @@ body.mobile {
   margin-top: 2em;
   min-width: 5em; }
 
-.menu_item {
-  cursor: pointer;
-  background-repeat: no-repeat;
-  position: fixed;
-  z-index: 99;
-  background-size: 100% 100%; }
-
-.mobile .menu_item {
-  cursor: pointer;
-  background-repeat: no-repeat;
-  position: fixed;
-  z-index: 99; }
-
-#instagram_menu_item {
-  background-image: url("/images/instagram_accent.png");
+#instagram_content {
   opacity: 0;
   transition: opacity 1s;
   top: 0;
@@ -121,9 +106,27 @@ body.mobile {
   height: 87px;
   width: 141px; }
 
-#instagram_menu_item:hover {
-  background-image: url("/images/instagram_accent.png");
+#instagram_content:hover {
   opacity: 1; }
+
+.menu_item {
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 99;
+  background-size: 100% 100%; }
+
+.mobile .menu_item {
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 99; }
+
+#instagram_menu_item {
+  background-image: url("/images/instagram_accent.png");
+  top: 0;
+  left: 50px;
+  display: block;
+  height: 87px;
+  width: 141px; }
 
 .mobile #instagram_menu_item {
   background-image: url("{{#asset}}MimiButtonHover.jpg{{/asset}}");
@@ -132,16 +135,10 @@ body.mobile {
 
 #tumblr_menu_item {
   background-image: url("/images/tumblr_accent.png");
-  opacity: 0;
-  transition: opacity 1s;
   bottom: 50px;
   left: 0px;
   height: 43px;
   width: 121px; }
-
-#tumblr_menu_item:hover {
-  background-image: url("/images/tumblr_accent.png");
-  opacity: 1; }
 
 .mobile #tumblr_menu_item {
   display: none;
@@ -152,16 +149,10 @@ body.mobile {
 
 #linkedin_menu_item {
   background-image: url("/images/about_accent.png");
-  opacity: 0;
-  transition: opacity 1s;
   top: 0em;
   right: 0em;
   height: 56px;
   width: 119px; }
-
-#linkedin_menu_item:hover {
-  background-image: url("/images/about_accent.png"); 
-  opacity: 1; }
 
 .mobile #linkedin_menu_item {
   background-image: url("{{#asset}}Testin.png{{/asset}}");
@@ -170,16 +161,10 @@ body.mobile {
 
 #contact_menu_item {
   background-image: url("/images/contact_accent.png");
-  opacity: 0;
-  transition: opacity 1s;
   bottom: 0em;
   right: 35%;
   height: 75px;
   width: 138px; }
-
-#contact_menu_item:hover {
-  background-image: url("/images/contact_accent.png");
-  opacity: 1; }
 
 .mobile #contact_menu_item {
   background-image: url("{{#asset}}Contact-Tag-Hover2.jpg{{/asset}}");
