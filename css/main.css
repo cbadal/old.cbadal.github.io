@@ -97,15 +97,13 @@ body.mobile {
 }
 
 #instagram_menu_accent {
-  opacity: 0;
-  transition: opacity 1s;
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 40em;
   margin-left: 60%; }
 
 #instagram_menu_accent:hover {
-  opacity: 1; }
+ }
 
 #contact_menu_accent {
   opacity: 0;
