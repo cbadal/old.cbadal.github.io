@@ -109,7 +109,7 @@ body.mobile {
   position: fixed;
   z-index: 99; }
 
-#insta_menu_item {
+#instagram {
   background-image: url("/images/instagram_accent.png");
   top: 0;
   left: 50px;
