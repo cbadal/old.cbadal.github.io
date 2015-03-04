@@ -45,7 +45,7 @@ body {
   color: #000000;
   font-family: serif;
   font-size: 1em;
-  line-height: 1.1em;
+  line-height: 1.3em;
   overflow: hidden;
   box-sizing: border-box; }
 
@@ -75,7 +75,7 @@ body.mobile {
   opacity: 0;
   transition: opacity 1s;
   font-size: 1em;
-  line-height: 1.1em;
+  line-height: 1.3em;
   margin-left: 30%;
   display: inline-block;
   margin-top: 20em;
