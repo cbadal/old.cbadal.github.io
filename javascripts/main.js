@@ -42,7 +42,7 @@
     },
     back_home: function() {
       this.state = 'home';
-      $('#content').load('ajax/home.html', 'ajax/instagramhome.html');
+      $('#content').load('ajax/home.html');
       $('#back_home').fadeOut();
       return $('.menu_item').fadeIn();
     },

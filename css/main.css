@@ -91,18 +91,6 @@ body.mobile {
   margin-top: 2em;
   min-width: 5em; }
 
-#instagram_home_content {
-  opacity: 0;
-  transition: opacity 1s;
-  font-size: 1em;
-  line-height: 1.3em;
-  margin-top: 40em;
-  margin-left: 60%; }
-
-#instagram_home_content:hover {
-  cursor: pointer;
-  opacity: 1; }
-
 .menu_item {
   background-repeat: no-repeat;
   position: fixed;
