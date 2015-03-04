@@ -94,11 +94,11 @@ body.mobile {
 #instagram_home_content {
   opacity: 0;
   transition: opacity 1s;
+  z-index: 99;
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 40em;
-  margin-left: 60%;
-  display: inline-block; }
+  margin-left: 60%; }
 
 #instagram_home_content:hover {
   cursor: pointer;
