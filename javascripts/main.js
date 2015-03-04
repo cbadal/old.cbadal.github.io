@@ -53,7 +53,7 @@
     contact_menu_item: function() {
       return $('#content').load('ajax/contact.html');
     },
-    instagram_menu_item: function() {
+    instagram_home_content: function() {
       var div;
       this.state = 'instagram';
       div = $(document.createElement('div')).attr('id', 'instagram_content');
