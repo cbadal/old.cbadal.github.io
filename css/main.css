@@ -79,13 +79,13 @@ body.mobile {
   opacity: 0;
   transition: opacity 1s;
   width: 47%;
-  font-size: 2em;
-  line-height: 1.5em;
+  font-size: 1em;
+  line-height: 1em;
   margin-left: 27%;
   display: inline-block;
   margin-top: 13em;
   height: 30%;
-  min-width: 32em; }
+  width: 320px; }
 
 #home_content:hover {
   background-image: url("/images/bio_accent.png");
@@ -136,8 +136,8 @@ body.mobile {
   transition: opacity 1s;
   bottom: 50px;
   left: 0px;
-  height: 270px;
-  width: 405px; }
+  height: 43px;
+  width: 121px; }
 
 #tumblr_menu_item:hover {
   background-image: url("/images/tumblr_accent.png");
@@ -156,8 +156,8 @@ body.mobile {
   transition: opacity 1s;
   top: 0em;
   right: 0em;
-  height: 260px;
-  width: 480.1px; }
+  height: 56px;
+  width: 119px; }
 
 #linkedin_menu_item:hover {
   background-image: url("/images/about_accent.png"); 
@@ -174,8 +174,8 @@ body.mobile {
   transition: opacity 1s;
   bottom: 0em;
   right: 35%;
-  height: 290px;
-  width: 315px; }
+  height: 75px;
+  width: 138px; }
 
 #contact_menu_item:hover {
   background-image: url("/images/contact_accent.png");
