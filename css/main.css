@@ -74,6 +74,14 @@ body.mobile {
     background: #000000;
     color: #ffffff; }
 
+#instagram_content {
+  background-image: url("/images/instagram_accent.png");
+  top: 0;
+  left: 50px;
+  display: block;
+  height: 87px;
+  width: 141px; }
+
 #home_content {
   opacity: 0;
   transition: opacity 1s;
@@ -108,14 +116,6 @@ body.mobile {
   background-repeat: no-repeat;
   position: fixed;
   z-index: 99; }
-
-#instagram {
-  background-image: url("/images/instagram_accent.png");
-  top: 0;
-  left: 50px;
-  display: block;
-  height: 87px;
-  width: 141px; }
 
 #instagram_menu_item {
   opacity: 0;
