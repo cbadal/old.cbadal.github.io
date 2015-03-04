@@ -65,9 +65,8 @@ body.mobile {
     color: #000000;
     text-decoration: none; }
   #content a:hover {
-    background: #000000;
-    color: 000000;
-    text-decoration: none; }
+    color: #000000;
+    text-decoration: underline; }
   #content a:active {
     background: #000000;
     color: #ffffff; }
@@ -75,9 +74,8 @@ body.mobile {
 #home_content {
   opacity: 0;
   transition: opacity 1s;
-  width: 47%;
   font-size: 1em;
-  line-height: 1em;
+  line-height: 1.7em;
   margin-left: 27%;
   display: inline-block;
   margin-top: 13em;
