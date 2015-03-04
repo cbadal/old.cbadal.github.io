@@ -185,7 +185,7 @@ body.mobile {
   width: 2em;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
-  font-size: 4em;
+  font-size: 2em;
   left: 50%;
   margin-left: -1.5em;
   text-align: center;
@@ -205,7 +205,7 @@ body.mobile {
   font-size: 13.2em; }
 
 #contact_content {
-  font-size: 2.6em;
+  font-size: 1em;
   line-height: 1.3em;
   position: absolute;
   width: 47%;
@@ -222,7 +222,7 @@ body.mobile {
   #linkedin_content img {
     margin-right: 0.2em; }
   #linkedin_content p {
-    font-size: 2.1em; }
+    font-size: 1em; }
   #linkedin_content div {
     color: #999; }
 
