@@ -71,19 +71,6 @@ body.mobile {
     background: #000000;
     color: #ffffff; }
 
-#home_content {
-  opacity: 0;
-  transition: opacity 1s;
-  font-size: 1em;
-  line-height: 1.3em;
-  margin-left: 30.5%;
-  display: inline-block;
-  margin-top: 19em;
-  width: 180px; }
-
-#home_content:hover {
-  opacity: 1; }
-
 #instagram_home_content {
   opacity: 0;
   transition: opacity 1s;
@@ -95,6 +82,19 @@ body.mobile {
   margin-left: 60%; }
 
 #instagram_home_content:hover {
+  opacity: 1; }
+
+#home_content {
+  opacity: 0;
+  transition: opacity 1s;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-left: 30.5%;
+  display: inline-block;
+  margin-top: 19em;
+  width: 180px; }
+
+#home_content:hover {
   opacity: 1; }
 
 #contact_home_content {
