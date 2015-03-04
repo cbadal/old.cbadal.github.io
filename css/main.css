@@ -84,6 +84,28 @@ body.mobile {
 #home_content:hover {
   opacity: 1; }
 
+#instagram_home_content {
+  opacity: 0;
+  transition: opacity 1s;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 40em;
+  margin-left: 60%; }
+
+#instagram_home_content:hover {
+  opacity: 1; }
+
+#contact_home_content {
+  opacity: 0;
+  transition: opacity 1s;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 60em;
+  margin-left: 20%; }
+
+#contact_home_content:hover {
+  opacity: 1; }
+
 .mobile #home_content {
   width: 85%;
   font-size: 18em;

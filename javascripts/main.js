@@ -42,7 +42,7 @@
     },
     back_home: function() {
       this.state = 'home';
-      $('#content').load('ajax/home.html');
+      $('#content').load('ajax/home.html', 'ajax/instagramhome.html');
       $('#back_home').fadeOut();
       return $('.menu_item').fadeIn();
     },
@@ -50,10 +50,10 @@
       this.state = 'linkedin';
       return $('#content').load('ajax/linkedin.html');
     },
-    contact_menu_item: function() {
+    contact_home_content: function() {
       return $('#content').load('ajax/contact.html');
     },
-    instagram_menu_item: function() {
+    instagram_home_content: function() {
       var div;
       this.state = 'instagram';
       div = $(document.createElement('div')).attr('id', 'instagram_content');
