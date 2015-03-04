@@ -53,8 +53,6 @@ body.mobile {
   font-size: 9em; }
 
 #content {
-  width: 100%;
-  height: 100%;
   overflow-y: auto; }
   #content .bold {
     font-weight: 800; }
@@ -118,6 +116,14 @@ body.mobile {
   background-repeat: no-repeat;
   position: fixed;
   z-index: 99; }
+
+#home_menu_item {
+  background-image: url("/images/bio_accent.png");
+  margin-left: 27%;
+  margin-top: 13em;
+  height: 315px;
+  width: 320px; 
+}
 
 #instagram_menu_item {
   background-image: url("/images/instagram_accent.png");
