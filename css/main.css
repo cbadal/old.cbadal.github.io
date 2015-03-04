@@ -44,8 +44,8 @@ body {
   background: #fff;
   color: #000000;
   font-family: serif;
-  font-size: .9em;
-  line-height: 1em;
+  font-size: 1em;
+  line-height: 1.1em;
   overflow: hidden;
   box-sizing: border-box; }
 
@@ -74,13 +74,12 @@ body.mobile {
 #home_content {
   opacity: 0;
   transition: opacity 1s;
-  font-size: .9em;
-  line-height: 1em;
+  font-size: 1em;
+  line-height: 1.1em;
   margin-left: 27%;
   display: inline-block;
   margin-top: 20em;
-  height: 315px;
-  width: 320px; }
+  width: 300px; }
 
 #home_content:hover {
   opacity: 1; }
