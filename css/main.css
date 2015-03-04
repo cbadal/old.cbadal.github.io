@@ -74,15 +74,8 @@ body.mobile {
     background: #000000;
     color: #ffffff; }
 
-#instagram_content {
-  background-image: url("/images/instagram_accent.png");
-  top: 0;
-  left: 50px;
-  display: block;
-  height: 87px;
-  width: 141px; }
-
 #home_content {
+  background-image: url("/images/bio_accent.png");
   opacity: 0;
   transition: opacity 1s;
   width: 47%;
@@ -95,6 +88,7 @@ body.mobile {
   min-width: 32em; }
 
 #home_content:hover {
+  background-image: url("/images/bio_accent.png");
   opacity: 1; }
 
 .mobile #home_content {
@@ -118,6 +112,7 @@ body.mobile {
   z-index: 99; }
 
 #instagram_menu_item {
+  background-image: url("/images/instagram_accent.png");
   opacity: 0;
   transition: opacity 1s;
   top: 0;
@@ -127,6 +122,7 @@ body.mobile {
   width: 141px; }
 
 #instagram_menu_item:hover {
+  background-image: url("/images/instagram_accent.png");
   opacity: 1; }
 
 .mobile #instagram_menu_item {
@@ -155,7 +151,7 @@ body.mobile {
   display: none; }
 
 #linkedin_menu_item {
-  background-image: url("/images/chuchu_menu_item.png");
+  background-image: url("/images/about_accent.png");
   opacity: 0;
   transition: opacity 1s;
   top: 0em;
@@ -164,7 +160,7 @@ body.mobile {
   width: 480.1px; }
 
 #linkedin_menu_item:hover {
-  background-image: url("/images/chuchu_menu_item_hover.png"); 
+  background-image: url("/images/about_accent.png"); 
   opacity: 1; }
 
 .mobile #linkedin_menu_item {
@@ -173,7 +169,7 @@ body.mobile {
   left: 50%; }
 
 #contact_menu_item {
-  background-image: url("/images/contact_menu_item.png");
+  background-image: url("/images/contact_accent.png");
   opacity: 0;
   transition: opacity 1s;
   bottom: 0em;
@@ -182,7 +178,7 @@ body.mobile {
   width: 315px; }
 
 #contact_menu_item:hover {
-  background-image: url("/images/contact_menu_item_hover.png");
+  background-image: url("/images/contact_accent.png");
   opacity: 1; }
 
 .mobile #contact_menu_item {
