@@ -72,8 +72,6 @@ body.mobile {
     color: #ffffff; }
 
 #home_content {
-  z-index: 2;
-  position: fixed;
   opacity: 0;
   transition: opacity 1s;
   font-size: 1em;
