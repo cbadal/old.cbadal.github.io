@@ -76,9 +76,9 @@ body.mobile {
   transition: opacity 1s;
   font-size: 1em;
   line-height: 1.3em;
-  margin-left: 17em;
+  margin-left: 20em;
   display: inline-block;
-  margin-top: 19em;
+  margin-top: 22em;
   width: 180px; }
 
 #home_content:hover {
@@ -118,7 +118,7 @@ body.mobile {
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 43em;
-  margin-left: 46em; 
+  margin-left: 45em; 
 }
 
 #tumblr_menu_item {
