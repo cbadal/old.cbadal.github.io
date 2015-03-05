@@ -94,7 +94,7 @@ body.mobile {
 
 
 .menu_item {
-  z-index: 99;
+  z-index: 50;
   position: fixed;
   cursor: pointer;
   opacity: 0;
@@ -149,6 +149,7 @@ body.mobile {
 
 .menu_accent {
   background-repeat: no-repeat;
+  z-index: 49;
   position: fixed;
   background-size: 100% 100%; }
 
@@ -256,7 +257,7 @@ body.mobile {
   line-height: 1.3em;
   margin-left: 15em;
   display: inline-block;
-  margin-top: 33em;
+  margin-top: 34em;
   width: 180px; }
 
 #linkedin_content {
