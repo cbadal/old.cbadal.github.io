@@ -76,9 +76,9 @@ body.mobile {
   transition: opacity 1s;
   font-size: 1em;
   line-height: 1.3em;
-  margin-left: 20em;
+  margin-left: 15em;
   display: inline-block;
-  margin-top: 21em;
+  margin-top: 31em;
   width: 180px; }
 
 #home_content:hover {
@@ -117,7 +117,7 @@ body.mobile {
 #instagram_menu_item {
   font-size: 1em;
   line-height: 1.3em;
-  margin-top: 42.5em;
+  margin-top: 43em;
   margin-left: 44.5em; 
 }
 
@@ -132,7 +132,7 @@ body.mobile {
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 6em;
-  margin-left: 10em; 
+  margin-left: 15em; 
   width: 100px;
   height: 50px;
 }
@@ -159,8 +159,8 @@ body.mobile {
 
 #home_menu_accent {
   background-image: url("/images/bio_accent.png");
-  margin-left: 15em;
-  margin-top: 15em;
+  margin-left: 10em;
+  margin-top: 25em;
   height: 315px;
   width: 320px; 
 }
@@ -203,7 +203,7 @@ body.mobile {
 #linkedin_menu_accent {
   background-image: url("/images/about_accent.png");
   margin-top: 5em;
-  margin-left: 7em;
+  margin-left: 12em;
   height: 56px;
   width: 119px; }
 
