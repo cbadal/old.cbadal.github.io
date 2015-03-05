@@ -314,7 +314,7 @@ body.mobile {
   text-align: center;
   top: 1em;
   cursor: pointer;
-  position: absolute;
+  position: relative;
   z-index: 4; }
 
 #back_home:hover {
