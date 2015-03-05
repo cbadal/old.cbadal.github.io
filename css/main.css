@@ -255,6 +255,8 @@ body.mobile {
 
 
 #contact_content {
+  z-index: 52;
+  position: fixed;
   font-size: 1em;
   line-height: 1.3em;
   margin-left: 15em;
