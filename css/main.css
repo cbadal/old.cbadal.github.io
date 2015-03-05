@@ -72,6 +72,7 @@ body.mobile {
     color: #ffffff; }
 
 #home_content {
+  z-index: 51;
   opacity: 0;
   transition: opacity 1s;
   font-size: 1em;
