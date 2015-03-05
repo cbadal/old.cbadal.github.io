@@ -96,6 +96,13 @@ body.mobile {
 .menu_item {
   z-index: 99;
   position: fixed;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.menu_item:hover {
+  opacity: 1;
 }
 
 #work_menu_item {
