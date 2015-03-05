@@ -128,7 +128,7 @@ body.mobile {
     font-size: 34em !important; }
 
 #instagram_content {
-  position: relative;
+  position: absolute;
   z-index: 99;
   width: 40em;
   margin-left: auto;
