@@ -71,6 +71,16 @@ body.mobile {
     background: #000000;
     color: #ffffff; }
 
+#contact_content {
+  z-index: 3;
+  position: fixed;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-left: 15em;
+  display: inline-block;
+  margin-top: 34em;
+  width: 180px; }
+
 #home_content {
   z-index: 2;
   position: fixed;
@@ -92,14 +102,6 @@ body.mobile {
   margin-left: 7.5%;
   margin-top: 2em;
   min-width: 5em; }
-
-#contact_content {
-  font-size: 1em;
-  line-height: 1.3em;
-  margin-left: 15em;
-  display: inline-block;
-  margin-top: 34em;
-  width: 180px; }
 
 #linkedin_content {
   width: 40em;
