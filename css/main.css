@@ -131,7 +131,7 @@ body.mobile {
   width: 40em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1em; 
+  margin-top: 5em; 
   height: 600px;
 }
   #instagram_content img {
@@ -151,7 +151,7 @@ body.mobile {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1em;
+  margin-top: 5em;
   margin-bottom: 5%; }
   #tumblr_content img {
     width: 100%; }
