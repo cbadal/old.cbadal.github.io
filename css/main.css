@@ -128,10 +128,11 @@ body.mobile {
     font-size: 34em !important; }
 
 #instagram_content {
-  width: 40em;
+  /*width: 40em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8em; }
+  margin-top: 8em; */
+}
   #instagram_content img {
     padding: 2.8em 0 2.8em 0;
     opacity: 0.8;
