@@ -72,6 +72,8 @@ body.mobile {
     color: #ffffff; }
 
 #home_content {
+  position: fixed;
+  z-index: 2;
   opacity: 0;
   transition: opacity 1s;
   font-size: 1em;
@@ -92,6 +94,8 @@ body.mobile {
   min-width: 5em; }
 
 #contact_content {
+  position: fixed;
+  z-index: 3;
   font-size: 1em;
   line-height: 1.3em;
   margin-left: 15em;
