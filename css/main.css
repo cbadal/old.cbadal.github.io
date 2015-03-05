@@ -53,6 +53,8 @@ body.mobile {
   font-size: 9em; }
 
 #content {
+  position: fixed;
+  z-index: 99;
   overflow-y: auto; }
   #content .bold {
     font-weight: 800; }
@@ -128,8 +130,6 @@ body.mobile {
     font-size: 34em !important; }
 
 #instagram_content {
-  position: static;
-  z-index: 99;
   width: 40em;
   margin-left: auto;
   margin-right: auto;
