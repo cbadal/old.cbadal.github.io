@@ -72,7 +72,7 @@ body.mobile {
     color: #ffffff; }
 
 #home_content {
-  position: fixed;
+  position: relative;
   z-index: 50;
   opacity: 0;
   transition: opacity 1s;
