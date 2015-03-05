@@ -53,8 +53,6 @@ body.mobile {
   font-size: 9em; }
 
 #content {
-  position: fixed;
-  z-index: 99;
   overflow-y: auto; }
   #content .bold {
     font-weight: 800; }
