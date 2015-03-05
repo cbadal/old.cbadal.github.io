@@ -91,36 +91,36 @@ body.mobile {
   margin-top: 2em;
   min-width: 5em; }
 
-.menu_accent {
+.menu_item {
   z-index: 99;
   position: fixed;
 }
 
 
 
-#instagram_menu_accent {
+#instagram_menu_item {
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 40em;
   margin-left: 60%; }
 
-#contact_menu_accent {
+#contact_menu_item {
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 60em;
   margin-left: 20%; }
 
-.menu_item {
+.menu_accent {
   background-repeat: no-repeat;
   position: fixed;
   background-size: 100% 100%; }
 
-.mobile .menu_item {
+.mobile .menu_accent {
   background-repeat: no-repeat;
   position: fixed;
   z-index: 99; }
 
-#home_menu_item {
+#home_menu_accent {
   background-image: url("/images/bio_accent.png");
   margin-left: 27%;
   margin-top: 13em;
@@ -128,7 +128,7 @@ body.mobile {
   width: 320px; 
 }
 
-#work_menu_item {
+#work_menu_accent {
   background-image: url("/images/work_accent.png");
   margin-left: 5%;
   margin-top: 14em;
@@ -136,7 +136,7 @@ body.mobile {
   width: 161px; 
 }
 
-#instagram_menu_item {
+#instagram_menu_accent {
   background-image: url("/images/instagram_accent.png");
   margin-top: 40em;
   margin-left: 60%;
@@ -144,45 +144,45 @@ body.mobile {
   height: 87px;
   width: 141px; }
 
-.mobile #instagram_menu_item {
+.mobile #instagram_menu_accent {
   background-image: url("{{#asset}}MimiButtonHover.jpg{{/asset}}");
   top: 35%;
   left: -25%; }
 
-#tumblr_menu_item {
+#tumblr_menu_accent {
   background-image: url("/images/tumblr_accent.png");
   margin-top: 50em;
   margin-left: 50%;
   height: 43px;
   width: 121px; }
 
-.mobile #tumblr_menu_item {
+.mobile #tumblr_menu_accent {
   display: none;
   background-image: url("{{#asset}}TumblrButtonHover.jpg{{/asset}}");
   top: 60%;
   left: -17.5%;
   display: none; }
 
-#linkedin_menu_item {
+#linkedin_menu_accent {
   background-image: url("/images/about_accent.png");
   margin-top: 5em;
   margin-left: 15%;
   height: 56px;
   width: 119px; }
 
-.mobile #linkedin_menu_item {
+.mobile #linkedin_menu_accent {
   background-image: url("{{#asset}}Testin.png{{/asset}}");
   top: 27.5%;
   left: 50%; }
 
-#contact_menu_item {
+#contact_menu_accent {
   background-image: url("/images/contact_accent.png");
   margin-top: 60em;
   margin-left: 20%;
   height: 75px;
   width: 138px; }
 
-.mobile #contact_menu_item {
+.mobile #contact_menu_accent {
   background-image: url("{{#asset}}Contact-Tag-Hover2.jpg{{/asset}}");
   top: 80%;
   left: 30%; }
