@@ -91,24 +91,50 @@ body.mobile {
   margin-top: 2em;
   min-width: 5em; }
 
+
+
 .menu_item {
   z-index: 99;
   position: fixed;
 }
 
-
+#work_menu_item {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 14em;
+  margin-left: 5%; 
+}
 
 #instagram_menu_item {
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 40em;
-  margin-left: 60%; }
+  margin-left: 60%; 
+}
+
+#tumblr_menu_item {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 50em;
+  margin-left: 50%; 
+}
+
+#linkedin_menu_item {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 5em;
+  margin-left: 15%; 
+}
 
 #contact_menu_item {
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 60em;
-  margin-left: 20%; }
+  margin-left: 20%; 
+}
+
+
+
 
 .menu_accent {
   background-repeat: no-repeat;
@@ -187,6 +213,8 @@ body.mobile {
   top: 80%;
   left: 30%; }
 
+
+
 #back_home {
   width: 2em;
   padding-top: 0.1em;
@@ -209,6 +237,8 @@ body.mobile {
 
 .mobile #back_home {
   font-size: 13.2em; }
+
+
 
 #contact_content {
   font-size: 1em;
