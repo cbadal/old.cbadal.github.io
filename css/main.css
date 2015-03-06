@@ -79,12 +79,13 @@ body.mobile {
   z-index: 50;
   float: left;
   opacity: 0;
+  padding: 50px 50px 50px 50px;
   transition: opacity 1s;
   font-size: .7em;
   line-height: 1.3em;
   margin-left: 14em;
   display: inline-block;
-  margin-top: 44em;
+  margin-top: 42em;
   width: 180px; }
 
 #home_content:hover {
@@ -193,16 +194,16 @@ body.mobile {
 
 #instagram_menu_item {
   margin-top: 56em;
-  margin-left: 54em; 
+  margin-left: 56em; 
 }
 
 #tumblr_menu_item {
-  margin-top: 68em;
-  margin-left: 68em; 
+  margin-top: 69em;
+  margin-left: 69em; 
 }
 
 #linkedin_menu_item {
-  margin-top: 6em;
+  margin-top: 5em;
   margin-left: 11em; 
   width: 100px;
   height: 50px;
