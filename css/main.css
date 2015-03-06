@@ -189,7 +189,7 @@ body.mobile {
 
 #work_menu_item {
   margin-top: 16em;
-  margin-left: 1em; 
+  margin-left: 6em; 
 }
 
 #instagram_menu_item {
@@ -204,13 +204,13 @@ body.mobile {
 
 #linkedin_menu_item {
   margin-top: 4.5em;
-  margin-left: 11em; 
+  margin-left: 16em; 
   width: 100px;
   height: 50px;
 }
 
 #contact_menu_item {
-  margin-top: 84em;
+  margin-top: 65em;
   margin-left: 9em; 
 }
 
@@ -240,7 +240,7 @@ body.mobile {
 
 #work_menu_accent {
   background-image: url("/images/work_accent.png");
-  margin-left: 0em;
+  margin-left: 5em;
   margin-top: 14em;
   height: 56px;
   width: 161px; 
@@ -276,7 +276,7 @@ body.mobile {
 #linkedin_menu_accent {
   background-image: url("/images/about_accent.png");
   margin-top: 5em;
-  margin-left: 8em;
+  margin-left: 13em;
   height: 56px;
   width: 119px; }
 
@@ -287,7 +287,7 @@ body.mobile {
 
 #contact_menu_accent {
   background-image: url("/images/contact_accent.png");
-  margin-top: 60em;
+  margin-top: 41em;
   margin-left: 6em;
   height: 75px;
   width: 138px; }
