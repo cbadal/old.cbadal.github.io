@@ -115,6 +115,8 @@ body.mobile {
   margin-right: auto;
   margin-top: 10.5%;
   margin-bottom: 20%; 
+  font-size: .7em;
+  line-height: 1.4em;
 }
   #linkedin_content img {
     margin-right: 0.2em; 
