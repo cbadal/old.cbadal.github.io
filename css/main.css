@@ -178,6 +178,7 @@ body.mobile {
   cursor: pointer;
   opacity: 0;
   font-size: .7em;
+  text-align: center;
   transition: opacity 1s;
 }
 
