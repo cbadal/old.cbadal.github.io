@@ -82,7 +82,7 @@ body.mobile {
   transition: opacity 1s;
   font-size: 1em;
   line-height: 1.3em;
-  margin-left: 15em;
+  margin-left: 13em;
   display: inline-block;
   margin-top: 31em;
   width: 180px; }
@@ -102,7 +102,7 @@ body.mobile {
   z-index: 3;
   font-size: 1em;
   line-height: 1.3em;
-  margin-left: 15em;
+  margin-left: 13em;
   display: inline-block;
   margin-top: 34em;
   width: 180px; }
@@ -133,7 +133,6 @@ body.mobile {
 
 #instagram_content {
   width: 40em;
-  z-index: 99;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5em; 
@@ -189,7 +188,7 @@ body.mobile {
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 14em;
-  margin-left: 7.5em; 
+  margin-left: 5.5em; 
   width: 100px;
   height: 50px;
 }
@@ -212,7 +211,7 @@ body.mobile {
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 6em;
-  margin-left: 15em; 
+  margin-left: 13em; 
   width: 100px;
   height: 50px;
 }
@@ -221,7 +220,7 @@ body.mobile {
   font-size: 1em;
   line-height: 1.3em;
   margin-top: 62em;
-  margin-left: 14em; 
+  margin-left: 12em; 
 }
 
 
@@ -242,7 +241,7 @@ body.mobile {
 
 #home_menu_accent {
   background-image: url("/images/bio_accent.png");
-  margin-left: 10em;
+  margin-left: 8em;
   margin-top: 25em;
   height: 315px;
   width: 320px; 
@@ -250,7 +249,7 @@ body.mobile {
 
 #work_menu_accent {
   background-image: url("/images/work_accent.png");
-  margin-left: 4em;
+  margin-left: 2em;
   margin-top: 14em;
   height: 56px;
   width: 161px; 
@@ -286,7 +285,7 @@ body.mobile {
 #linkedin_menu_accent {
   background-image: url("/images/about_accent.png");
   margin-top: 5em;
-  margin-left: 12em;
+  margin-left: 10em;
   height: 56px;
   width: 119px; }
 
@@ -298,7 +297,7 @@ body.mobile {
 #contact_menu_accent {
   background-image: url("/images/contact_accent.png");
   margin-top: 60em;
-  margin-left: 10em;
+  margin-left: 8em;
   height: 75px;
   width: 138px; }
 
