@@ -178,6 +178,7 @@ body.mobile {
   cursor: pointer;
   opacity: 0;
   font-size: .7em;
+  padding: 50px 50px 50px 50px;
   transition: opacity 1s;
 }
 
@@ -188,7 +189,6 @@ body.mobile {
 #work_menu_item {
   margin-top: 14em;
   margin-left: 3.5em; 
-  padding: 25px 50px 25px 50px;
 }
 
 #instagram_menu_item {
