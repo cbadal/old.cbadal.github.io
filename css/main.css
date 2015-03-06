@@ -80,8 +80,8 @@ body.mobile {
   float: left;
   opacity: 0;
   transition: opacity 1s;
-  font-size: 1em;
-  line-height: 1.3em;
+  font-size: .7em;
+  line-height: 1em;
   margin-left: 11em;
   display: inline-block;
   margin-top: 31em;
@@ -100,8 +100,8 @@ body.mobile {
 #contact_content {
   position: fixed;
   z-index: 3;
-  font-size: 1em;
-  line-height: 1.3em;
+  font-size: .7em;
+  line-height: 1em;
   margin-left: 11em;
   display: inline-block;
   margin-top: 34em;
@@ -117,7 +117,7 @@ body.mobile {
   #linkedin_content img {
     margin-right: 0.2em; }
   #linkedin_content p {
-    font-size: 1em; }
+    font-size: .7em; }
   #linkedin_content div {
     color: #999; }
 
@@ -177,6 +177,7 @@ body.mobile {
   position: fixed;
   cursor: pointer;
   opacity: 0;
+  font-size: .7em;
   transition: opacity 1s;
 }
 
@@ -185,8 +186,6 @@ body.mobile {
 }
 
 #work_menu_item {
-  font-size: 1em;
-  line-height: 1.3em;
   margin-top: 14em;
   margin-left: 3.5em; 
   width: 100px;
@@ -194,22 +193,16 @@ body.mobile {
 }
 
 #instagram_menu_item {
-  font-size: 1em;
-  line-height: 1.3em;
   margin-top: 43em;
   margin-left: 44.5em; 
 }
 
 #tumblr_menu_item {
-  font-size: 1em;
-  line-height: 1.3em;
   margin-top: 52em;
   margin-left: 53em; 
 }
 
 #linkedin_menu_item {
-  font-size: 1em;
-  line-height: 1.3em;
   margin-top: 6em;
   margin-left: 11em; 
   width: 100px;
@@ -217,8 +210,6 @@ body.mobile {
 }
 
 #contact_menu_item {
-  font-size: 1em;
-  line-height: 1.3em;
   margin-top: 62em;
   margin-left: 10em; 
 }
