@@ -85,7 +85,7 @@ body.mobile {
   line-height: 1.3em;
   margin-left: 10em;
   display: inline-block;
-  margin-top: 38em;
+  margin-top: 33em;
   width: 180px; }
 
 #home_content:hover {
@@ -233,7 +233,7 @@ body.mobile {
 #home_menu_accent {
   background-image: url("/images/bio_accent.png");
   margin-left: 6em;
-  margin-top: 25em;
+  margin-top: 20em;
   height: 315px;
   width: 320px; 
 }
