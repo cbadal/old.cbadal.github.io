@@ -178,7 +178,6 @@ body.mobile {
   cursor: pointer;
   opacity: 0;
   font-size: .7em;
-  text-align: center;
   transition: opacity 1s;
 }
 
@@ -189,8 +188,7 @@ body.mobile {
 #work_menu_item {
   margin-top: 14em;
   margin-left: 3.5em; 
-  width: 100px;
-  height: 50px;
+  padding: 25px 50px 25px 50px;
 }
 
 #instagram_menu_item {
