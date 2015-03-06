@@ -83,9 +83,9 @@ body.mobile {
   transition: opacity 1s;
   font-size: .7em;
   line-height: 1.3em;
-  margin-left: 11em;
+  margin-left: 10em;
   display: inline-block;
-  margin-top: 39em;
+  margin-top: 38em;
   width: 180px; }
 
 #home_content:hover {
@@ -194,7 +194,7 @@ body.mobile {
 
 #instagram_menu_item {
   margin-top: 57em;
-  margin-left: 58em; 
+  margin-left: 59em; 
 }
 
 #tumblr_menu_item {
