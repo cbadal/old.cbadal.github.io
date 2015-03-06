@@ -85,7 +85,7 @@ body.mobile {
   line-height: 1.3em;
   margin-left: 10em;
   display: inline-block;
-  margin-top: 32em;
+  margin-top: 31em;
   width: 180px; }
 
 #home_content:hover {
@@ -194,12 +194,12 @@ body.mobile {
 
 #instagram_menu_item {
   margin-top: 57em;
-  margin-left: 54em; 
+  margin-left: 47em; 
 }
 
 #tumblr_menu_item {
   margin-top: 70em;
-  margin-left: 65.5em; 
+  margin-left: 59.5em; 
 }
 
 #linkedin_menu_item {
@@ -249,7 +249,7 @@ body.mobile {
 #instagram_menu_accent {
   background-image: url("/images/instagram_accent.png");
   margin-top: 40em;
-  margin-left: 35em;
+  margin-left: 30em;
   display: block;
   height: 87px;
   width: 141px; }
@@ -262,7 +262,7 @@ body.mobile {
 #tumblr_menu_accent {
   background-image: url("/images/tumblr_accent.png");
   margin-top: 50em;
-  margin-left: 45em;
+  margin-left: 40em;
   height: 43px;
   width: 121px; }
 
