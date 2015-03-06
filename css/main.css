@@ -1,5 +1,5 @@
 /*
-$base-font-family: Serif;
+$base-font-family: Times, serif;
 $base-font-size:   13px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -43,7 +43,7 @@ body, html {
 body {
   background: #fff;
   color: #000000;
-  font-family: serif;
+  font-family: Times, serif;
   font-size: 1em;
   line-height: 1.3em;
   width: 40em;
