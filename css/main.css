@@ -45,7 +45,7 @@ body {
   color: #000000;
   font-family: Times, serif;
   font-size: .7em;
-  line-height: 1em;
+  line-height: 1.4em;
   width: 40em;
   margin-left: auto;
   margin-right: auto;
@@ -82,7 +82,7 @@ body.mobile {
   padding: 50px 50px 50px 50px;
   transition: opacity 1s;
   font-size: .7em;
-  line-height: 1.3em;
+  line-height: 1.4em;
   margin-left: 10em;
   display: inline-block;
   margin-top: 31em;
@@ -102,7 +102,7 @@ body.mobile {
   position: fixed;
   z-index: 3;
   font-size: .7em;
-  line-height: 1em;
+  line-height: 1.4em;
   margin-left: 11em;
   display: inline-block;
   margin-top: 34em;
@@ -189,12 +189,12 @@ body.mobile {
 
 #work_menu_item {
   margin-top: 16em;
-  margin-left: 6em; 
+  margin-left: 7em; 
 }
 
 #instagram_menu_item {
-  margin-top: 60em;
-  margin-left: 31em; 
+  margin-top: 62em;
+  margin-left: 29em; 
 }
 
 #tumblr_menu_item {
@@ -204,14 +204,14 @@ body.mobile {
 
 #linkedin_menu_item {
   margin-top: 4.5em;
-  margin-left: 16em; 
+  margin-left: 17em; 
   width: 100px;
   height: 50px;
 }
 
 #contact_menu_item {
-  margin-top: 75em;
-  margin-left: 9em; 
+  margin-top: 72em;
+  margin-left: 10em; 
 }
 
 
