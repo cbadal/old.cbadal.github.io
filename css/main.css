@@ -82,9 +82,9 @@ body.mobile {
   transition: opacity 1s;
   font-size: .7em;
   line-height: 1.3em;
-  margin-left: 13em;
+  margin-left: 14em;
   display: inline-block;
-  margin-top: 40em;
+  margin-top: 44em;
   width: 180px; }
 
 #home_content:hover {
@@ -187,23 +187,23 @@ body.mobile {
 }
 
 #work_menu_item {
-  margin-top: 14em;
-  margin-left: 2em; 
+  margin-top: 16em;
+  margin-left: 1em; 
 }
 
 #instagram_menu_item {
-  margin-top: 53em;
-  margin-left: 51em; 
+  margin-top: 56em;
+  margin-left: 54em; 
 }
 
 #tumblr_menu_item {
-  margin-top: 65em;
-  margin-left: 65em; 
+  margin-top: 68em;
+  margin-left: 68em; 
 }
 
 #linkedin_menu_item {
-  margin-top: 5em;
-  margin-left: 10em; 
+  margin-top: 6em;
+  margin-left: 11em; 
   width: 100px;
   height: 50px;
 }
