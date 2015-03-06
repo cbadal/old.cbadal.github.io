@@ -103,9 +103,9 @@ body.mobile {
   z-index: 3;
   font-size: .7em;
   line-height: 1.4em;
-  margin-left: 11em;
+  margin-left: 12em;
   display: inline-block;
-  margin-top: 34em;
+  margin-top: 36em;
   width: 180px; }
 
 #linkedin_content {
@@ -114,13 +114,18 @@ body.mobile {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10.5%;
-  margin-bottom: 20%; }
+  margin-bottom: 20%; 
+}
   #linkedin_content img {
-    margin-right: 0.2em; }
+    margin-right: 0.2em; 
+  }
   #linkedin_content p {
-    font-size: .7em; }
+    font-size: .7em; 
+    line-height: 1.4em;
+  }
   #linkedin_content div {
-    color: #999; }
+    color: #999; 
+  }
 
 .mobile #linkedin_content {
   width: 85%;
@@ -156,6 +161,8 @@ body.mobile {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  font-size: .7em;
+  line-height: 1.4em;
   margin-top: 5em;
   margin-bottom: 5%; }
   #tumblr_content img {
@@ -211,7 +218,7 @@ body.mobile {
 
 #contact_menu_item {
   margin-top: 71em;
-  margin-left: 10em; 
+  margin-left: 9em; 
 }
 
 
