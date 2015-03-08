@@ -58,6 +58,7 @@ body.mobile {
 #content {
   overflow-y: auto;
   max-width: 100%;
+  height: auto;
   }
   #content .bold {
     font-weight: 800;
